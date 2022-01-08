@@ -4,7 +4,7 @@ import PrimaryBtn from "./PrimaryBtn";
 
 const Header = () => {
   return (
-    <div className="flex sticky top-0 font-inter z-50 bg-white text-[#232E3B]  min-h-[80px] px-[30px] lg:px-[60px] xl:px-[180px] flex-row items-center w-full justify-between">
+    <div className="flex sticky  top-0 font-inter z-50 bg-white text-[#232E3B]  min-h-[80px] px-[30px] lg:px-[60px] xl:px-[180px] flex-row items-center w-full justify-between">
       <img
         src="/assets/header/logo.png"
         className="w-[50%] h-[50%] md:w-auto md:h-auto"
@@ -23,7 +23,7 @@ const Header = () => {
           border={true}
           width={"w-36"}
         />
-        <div className="w-56 text-right md:hidden block    ">
+        <div className="w-auto  text-right md:hidden block    ">
           <Menu as="div" className="relative inline-block text-left">
             <div>
               <Menu.Button className="inline-flex justify-center w-full px-4 py-2 text-sm font-medium text-white bg-black rounded-md bg-opacity-20 hover:bg-opacity-30 focus:outline-none focus-visible:ring-2 focus-visible:ring-white focus-visible:ring-opacity-75">
