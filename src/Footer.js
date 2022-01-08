@@ -49,10 +49,10 @@ const Footer = () => {
         </div>
         <div className=" flex flex-col   space-y-5 lg:space-y-0 col-span-4 lg:col-span-1 h-full justify-between items-center w-full lg:w-auto ">
           <div className="flex lg:flex-col flex-row w-full justify-center">
-            <span className="font-normal lg:max-w-[125px] text-right cursor-pointer text-text_black-600 text-sm">
+            <span className="font-normal lg:max-w-[125px] text-right cursor-pointer text-text_black-600 text-[12px] md:text-sm">
               110 Corcoran St. 5th Floor Durham, NC 27701
             </span>
-            <span className="font-normal lg:max-w-[125px] text-right cursor-pointer text-text_black-600 text-sm">
+            <span className="font-normal lg:max-w-[125px] text-right cursor-pointer text-text_black-600 text-[12px] md:text-sm">
               +1 919.813.6616
             </span>
           </div>

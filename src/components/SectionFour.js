@@ -3,7 +3,7 @@ import Card from "./Card";
 
 const SectionFour = () => {
   return (
-    <div className="h-[668px] relative pt-10  w-full flex flex-col items-center justify-center px-60  font-inter ">
+    <div className="h-[668px] relative pt-10  w-full flex flex-col items-center justify-center md:px-60  font-inter ">
       <div className="flex flex-col space-y-28">
         <span className=" text-[30px] md:text-[80px] lg:text-[95px] leading-10   font-black   uppercase    text-[#F0F2F4] text-center">
           Organizational
