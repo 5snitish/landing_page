@@ -8,7 +8,7 @@ import logo from "./logo.svg";
 
 function App() {
   return (
-    <div className=" static    text-rose-600 flex flex-col overflow-y-auto h-screen w-full">
+    <div className=" static overflow-y-hidden    text-rose-600 flex flex-col   h-screen w-full">
       {/* header */}
       <Header />
       {/* middle section */}
