@@ -7,7 +7,7 @@ const Header = () => {
     <div className="flex sticky  top-0 font-inter z-50 bg-white text-[#232E3B]  min-h-[80px] px-[30px] lg:px-[60px] xl:px-[180px] flex-row items-center w-full justify-between">
       <img
         src="/assets/header/logo.png"
-        className="w-[50%] h-[50%] md:w-auto md:h-auto"
+        className="w-[50%] h-[50%] md:w-auto md:h-auto max-w-[210px]"
       />
       <div className="hidden text-xs md:flex flex-row space-x-2 lg:space-x-7">
         <span className="font-semibold  ">How it works</span>

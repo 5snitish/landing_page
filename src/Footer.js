@@ -2,10 +2,10 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <div className="w-full md:absolute md:bottom-0 flex  flex-row h-auto  md:min-h-[257px] md:px-7 px-1 lg:px-44 bg-[#131A21] py-12 ">
+    <div className="w-full   flex  flex-row h-auto  md:min-h-[257px] md:px-7 px-1 lg:px-44 bg-[#131A21] py-12 ">
       <div className="grid grid-cols-4 gap-4  justify-items-center   w-full   ">
         <div className="flex col-span-4 lg:col-span-1 flex-col space-y-4 md:space-y-0 justify-between">
-          <img src="/assets/header/logo_white.png" className="w-[100%]" />
+          <img src="/assets/header/logo_white.png" className="w-[100%] " />
 
           <span className="font-normal text-[10px]  text-text_black-600">
             © Copyright 2021 | All Rights Reserved
