@@ -12,7 +12,8 @@ function App() {
       {/* header */}
       <Header />
       {/* middle section */}
-      <div className="flex    flex-col  w-full pt-7  placeholder:">
+      <div className="flex    flex-col  w-full pt-7 mb-36
+       md:mb-0   ">
         <SectionOne />
         <SectionTwo />
         <SectionThree />
